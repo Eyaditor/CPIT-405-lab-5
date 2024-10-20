@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Player Stats Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="./script.js" defer></script>
+<body>
+    <h1>NBA Player Stats Dashboard</h1>
+    <input type="text" id="search" placeholder="Search players...">
+    <select id="teamFilter">
+        <option value="all">All</option>
+        <option value="PHI">PHI</option>
+        <option value="NYK">NYK</option>
+        <option value="OKC">OKC</option>
+        <option value="CLE">CLE</option>
+        <option value="DAL">DAL</option>
+        <option value="DEN">DEN</option>
+        <option value="LAL">LAL</option>
+        <option value="MIN">MIN</option>
+        <option value="PHX">PHX</option>
+        <option value="ORL">ORL</option>
+        <option value="BOS">BOS</option>
+        <option value="MIL">MIL</option>
+        <option value="MIA">MIA</option>
+        <option value="IND">IND</option>
+        <option value="LAC">LAC</option>
+        <option value="NOP">NOP</option>
+    </select>
+    <button id="toggleDarkMode">Toggle Dark Mode</button>
+
+    <table id="playerTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Team</th>
+                <th>Points</th>
+                <th>Rebounds</th>
+                <th>Assists</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>

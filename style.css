@@ -1,0 +1,25 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+body.dark-mode {
+    background-color: #333;
+    color: #fff; 
+}
+body.dark-mode h1{
+    color: #fff;
+}
+body.dark-mode table, body.dark-mode th, body.dark-mode td {
+    border: 1px solid #666;
+}
